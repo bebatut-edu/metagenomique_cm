@@ -55,13 +55,406 @@
 
                 <section>
                     <section data-markdown>
-                        ### Séquençage
+                        <script type="text/template">
+                        ## Séquençage
+
+                        ![DNA and question mark](images/sequencage/bioethics_591.jpg)
+
+                        <small>
+                        Crédits : [http://scienceprogress.org](http://scienceprogress.org/2008/11/personal-medicine-public-bioethics/)
+                        </small> 
+                        </script>   
                     </section>
+
+                    <section data-markdown>
+                        ### Séquençage ADN
+
+                        Détermination de l'ordre d'enchaînement des nucléotides
+                        d'un fragment d'ADN/ARN donné
+                    </section>
+
+                    <section data-markdown>
+                        ### Pourquoi séquencer l'ADN?
+
+                        Identification de gènes, de régions plus larges, de 
+                        chromosomes ou de génomes entiers
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Applications
+
+                        - Biologie moléculaire
+                        - Biologie évolutive
+                        - Métagénomique
+                        - Médecine
+                        - Forensiques
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Un peu de bibliographie
+
+                        - Revue sur l'histoire du début du séquençage et de la 
+                        bioinformatique : [*Hutchinson, Nucl Acids Res, 2007*](http://nar.oxfordjournals.org/content/35/18/6227.short)
+                        - Revues sur les différentes méthodes de séquençage
+                            - [*Metzker, Genome Res, 2005*](http://genome.cshlp.org/content/15/12/1767.short)
+                            - [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                            - [*Schadt et al, Hum Mol Genet, 2010*](http://hmg.oxfordjournals.org/content/19/R2/R227.short)
+
+                    </section>
+
                 </section>
 
                 <section>
                     <section data-markdown>
                         # Méthodes de séquençage
+                    </section>
+
+                    <section data-markdown>
+                        ## Première génération
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Séquençage de Sanger
+
+                        <small>
+                        *Sanger & Coulson, J Mol Biol, 1975; 
+                        Sanger et al, Proc Natl Acad Sci USA, 1977*
+                        </small>
+
+                        ![Sanger sequencing](images/sequencage/sanger-sequencing.svg)
+                        <small>
+                        Crédits : Estvezj (modifié)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Séquençage de Sanger
+
+                        <small>
+                        *Sanger & Coulson, J Mol Biol, 1975; 
+                        Sanger et al, Proc Natl Acad Sci USA, 1977*
+                        </small>
+
+                        ![Sanger sequencing](images/sequencage/schadt2010_figure1a.png)
+                        <small>
+                        Crédits : [*Schadt et al, Hum Mol Genet, 2010*](http://hmg.oxfordjournals.org/content/19/R2/R227.short)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Avantages
+
+                        - Bonne qualité des séquences jusqu'à 1kb
+                        - 1 run ~ 2h
+                        - Nombreux outils de traitements bioinformatique
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Limites
+
+                        - Coûts élevés (~ 3€ par séquence)
+                        - Pas haut-débit (384 séquences par run)
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        ## Seconde génération
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Principe
+
+                        - Préparation de l'échantillon
+                            - Amplification clonale
+                            - Immobilisation
+                        - Séquençage et visualisation
+                            - Cycle reversible termination (CRT)
+                            - Sequencing by ligation (SBL)
+                            - Single-nucleotide addition (SNA)
+                            - Real-time sequencing
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Préparation de l'échantillon (1)
+
+                        Amplification clonale par émulsion PCR
+
+                        ![PCR](images/sequencage/metzker2010_figure1a.png)
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Préparation de l'échantillon (1)
+
+                        Amplification clonale solid-phase 
+
+                        ![PCR](images/sequencage/metzker2010_figure1b.png)
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Préparation de l'échantillon (2)
+
+                        Immobilisation des primers
+
+                        ![PCR](images/sequencage/metzker2010_figure1c.png)
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Préparation de l'échantillon (2)
+
+                        Immobilisation des templates
+
+                        ![PCR](images/sequencage/Metzker2010_figure1d.png)
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Préparation de l'échantillon (2)
+
+                        Immobilisation des polymérases
+
+                        ![PCR](images/sequencage/metzker2010_figure1e.png)
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Séquençage et visualisation
+
+                        Cyclic reversible termination (CRT)
+
+                        <img src="images/sequencage/schadt2010_figure1b.png" alt="CRT" style="width: 550px;"/>
+
+                        <small>
+                        Crédits : [*Schadt et al, Hum Mol Genet, 2010*](http://hmg.oxfordjournals.org/content/19/R2/R227.short)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Séquençage et visualisation
+
+                        Cyclic reversible termination (CRT)
+
+                        <img src="images/sequencage/metzker2010_figure2a.png" alt="CRT" style="height: 450px;"/>
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Séquençage et visualisation
+
+                        Sequencing by ligation (SBL)
+
+                        <img src="images/sequencage/metzker2010_figure3a.png" alt="CRT" style="height: 450px;"/>
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Séquençage et visualisation
+
+                        Single-nucleotide addition (SNA) ou pyroséquençage
+
+                        <img src="images/sequencage/metzker2010_figure3c.png" alt="CRT" style="height: 450px;"/>
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Séquençage et visualisation
+
+                        Single-nucleotide addition (SNA) ou pyroséquençage
+
+                        ![SNA](images/sequencage/metzker2010_figure3d.png)
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Séquençage et visualisation
+
+                        Real-time sequencing
+
+                        <img src="images/sequencage/metzker2010_figure4.png" alt="CRT" style="width: 700px;"/>
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Différentes plateformes
+
+                        Plateforme | Préparation | Séquençage
+                        --- | --- | ---
+                        Roche/454 | PCR par émulsion | Pyroséquençage
+                        Illumina | Solid-phase amplification | CRT
+                        Life/APG | PCR par émulsion | SBL
+                        Polonator | PCR par émulsion | SBL
+                        Helicos (Biosciences) | Immobilisation des templates ou primers | CRT
+                        Pacific (Biosciences) | Immobilisation des polymérases | Real-time
+
+                        <small>
+                        Crédits : [*Metzker, Nature Rev Genet, 2010*](http://www.nature.com/nrg/journal/v11/n1/abs/nrg2626.html)
+                        </small>
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Illumina
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/womKfikWlxM" frameborder="0" allowfullscreen></iframe>
+
+                        [Vidéo YouTube](https://www.youtube.com/watch?v=womKfikWlxM)
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        ### Avantages
+
+                        - Haut-débit
+                        - Coûts faibles
+                    </section>
+
+                    <section data-markdown>
+                        ### Limites
+
+                        - Amplification
+                            - Risque d'erreur
+                            - Augmentation de la complexité et du temps associé 
+                            à la Préparation
+                        - Génération importante de données
+                            - Traitement
+                            - Stockage
+                        - Séquences courtes
+                    </section>
+
+                    <section data-markdown>
+                        ## Entre la 2e et 3e génération
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Ion Torrent
+
+                        Mesure du largage d'un H+ lors de l'incorporation d'une base
+                        avec une puce électronique
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WYBzbxIfuKs" frameborder="0" allowfullscreen></iframe>
+
+                        [Vidéo YouTube](https://www.youtube.com/watch?&v=WYBzbxIfuKs)
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        ### Ion Torrent
+
+                        - Avantages
+                            - Pas besoin de lumière, scanning et caméras
+                        - Limites
+                            - Système "wash-and-scan" avec une amplification PCR
+                    </section>
+
+                    <section data-markdown>
+                        ### Helicos Genetic Analysis Platform
+
+                        Imagerie d'ADN individuels fixés sur une surface plane 
+                        pendant leur élongation avec une polymérase modifiée et 
+                        des nucléotides fluorescents
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Helicos Genetic Analysis Platform
+
+                        - Avantages
+                            - Pas de PCR
+                        - Limites
+                            - Arrêt de l'élongation
+                            - Taux d'erreur > 5%
+                    </section>
+
+                    <section data-markdown>
+                        ## Troisième génération
+                    </section>
+
+                    <section data-markdown>
+                        ## Comparaison des générations et des méthodes
                     </section>
                 </section>
 
@@ -75,7 +468,9 @@
                     <section data-markdown>
                         ## Références
                    
-                        articles...
+                        - Quelques vidéos sur les différentes méthodes de séquençage
+                            - [Apport d'Ion Torrent par rapport à Illumina](https://www.youtube.com/watch?v=R8rEEUkfC9I)
+
                     </section>
 
                     <section data-markdown>
