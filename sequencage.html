@@ -723,6 +723,94 @@
                             - Re-séquençage pour applications basées sur la fréquence (comptage)
                     </section>
 
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Comparaison des plateformes
+
+                        ![Sequencing instrument comparison](images/sequencage/sequencing_instrument_comparison.png)
+
+                        <small>
+                        Crédits : [The Molecular Ecologist](http://www.molecularecologist.com/next-gen-fieldguide-2014/)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        ### Multiplexage
+
+                        Moyen de diminuer les coûts de séquençage
+
+                        - Ajout d'un tag d'identification pour chaque échantilon
+                        - Mélange des échantillons
+                        - Préparation et séquençage en parallèle
+                        - Tri des séquences en fonction des échantillons 
+                        (information de source contenue dans la séquence)
+
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Taux d'erreur
+
+                        <small>
+
+                        Instrument | Erreurs principales | Taux d'erreur (%s)
+                        --- | --- | ---
+                        454 | Indels | 1
+                        Illumina | Substitutions | 0.1
+                        Ion Torrent | Indels | 1
+                        SOLiD | Biais AT | <= 0.1
+                        Oxford Nanopore | Délétions | 4
+                        PacBio RS | Indels | <= 1
+
+                        Crédits : [The Molecular Ecologist](http://www.molecularecologist.com/next-gen-fieldguide-2014/)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Comparaison des plateformes
+
+                        <small>
+                        
+                        Instrument | Avantages | Inconvénient
+                        --- | --- | ---
+                        454 FLX+ | Reads contigus les plus longs des 2nd génération | Coûts éleveés par Mb, problèmes de reagents
+                        454 GS Jr | Plus faibles coûts par run que 454 FLX+ | Coûts élevés par Mb, Peu de reads, Reads plus courts que FLX
+                        Illumina HiSeq | Failes coûts par Mb | Coûts élevés d'instruments et de runs; Besoin de personnels qualifiés
+                        Illumina MiSeq | Coûts modérés d'instruments et runs, Faibles coûts par Mb pour une petite plateforme, Durée des runs les rapides et les reads les plus longs des plateformes Illumina | Relativement peu de reads et coûts plus élevés par Mb que HiSeq
+                        Illumina NextSeq | Facilité d'utilisation, coûts modérés d'instruments et de run | Nouvelle chimie et nouveau design d'instruments
+                        
+
+                        Crédits : [The Molecular Ecologist](http://www.molecularecologist.com/next-gen-fieldguide-2014/)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Comparaison des plateformes
+
+                        <small>
+                        
+                        Instrument | Avantages | Inconvénient
+                        --- | --- | ---
+                        Ion Torrent | Faibles coûts d'instruments, machine simple | Plus forts taux d'erreurs qu'Illumina, plus de temps de manipulation, moins de reads à coûts plus élevés que MiSeq
+                        PacBio | Séquençage en temps réel simple molécule, Reads plus longs; Capacité de détection des modifications de bases | Forts taux d'erreur, Faible nombre de reads par run, Coûts élevés par Mb
+                        SOLiD | Forte précision, Capacité de sauver les cycles de séquençage ayant échoué | Longévité de la plateforme, Reads relativement courts, Plus de gaps dans l'assemblage que pour les données Illumina
+                        Oxford Nanopore | Instrument portable et low-cost, Reads extrêmement longs | Très récent
+
+                        Crédits : [The Molecular Ecologist](http://www.molecularecologist.com/next-gen-fieldguide-2014/)
+                        </small>
+
+                        </script>
+                    </section>
+
+
                 </section>
 
                 <section>
