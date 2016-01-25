@@ -817,6 +817,153 @@
                     <section data-markdown>
                         # Traitement des données issues du séquençage
                     </section>
+
+                    <section data-markdown>
+                        ### Traitement des données issues du séquençage
+
+                        - Gestion des données
+                        - Prétraitement des données
+                        - Assemblage 
+                        - Analyses des séquences
+                    </section>
+
+                    <section data-markdown>
+                        ## Gestion des données
+                    </section>
+
+                    <section data-markdown>
+                        ### Formats des données brutes
+
+                        - FastA: Format répandu de stockage des séquences biologiques
+                        - FastQ (*Illumina*)
+                        - SFF (*Roche 454*)
+                        - SRF (*Helicos*)
+                        - HDF5 (*PacBio, Applied Biosystems, Oxford Nanopore*)
+                    </section>
+
+                    <section data-markdown>
+                        ### FastA
+
+                        ```
+                        > Identifiant (Commentaire)
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        > Identifiant2 (Commentaire)
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XX
+                        ```
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### FastA
+
+                        Pas de standard dans les description malgré des tentatives
+
+                        <small>
+
+                        Banque de données | Description
+                        --- | ---
+                        GenBank | `gi`&#124;`numero_gi`&#124;`gb`&#124;`numero_accession`&#124;`locus`
+                        EMBL | `gi`&#124;`numero_gi`&#124;`emb`&#124;`numero_accession`&#124;`locus`
+                        DDDJ | `gi`&#124;`numero_gi`&#124;`dbj`&#124;`numero_accession`&#124;`locus`
+                        NBRF PIR | `pir`&#124;&#124;`entree`
+                        Protein Research Foundation | `prf`&#124;`nom` 
+                        Swiss-Prot | `sp`&#124;`numero_accession`&#124;`nom`
+                        Brookhave PDB | `pdb`&#124;`entree`&#124;`chaine`
+                        Brevets | `pat`&#124;`brevet`&#124;`numero`
+                        GenInfo Backbone Id | `bbs`&#124;`numero`
+                        General datase identifier | `gnl`&#124;`base_de_donnees`&#124;`identifiant`
+                        NCBI Reference Sequence | `ref`&#124;`numero_accession`&#124;`locus`
+                        Local Sequence idenfier | `lci`&#124;`identifiant`
+
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Code des acides nucléoiques
+
+                        <small>
+
+                        Code | Signification | Mémorisation
+                        --- | --- | ---
+                        A | A | **A**dénosine
+                        C | C | **C**ytosine
+                        G | G | **G**uanine
+                        T | T | **T**hymine
+                        U | U | **U**racile
+                        R | A ou G | pu**R**ine
+                        Y | C, T ou U | p**Y**rimidine
+                        K | G, T ou U | *K*etone (cétone)
+                        M | A ou C | a**M**ine
+                        S | C ou G | **S**trong (interaction forte)
+                        W | A, T ou U | **W**eak (interaction faible)
+
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Code des acides nucléoiques
+
+                        <small>
+
+                        Code | Signification | Mémorisation
+                        --- | --- | ---
+                        B | différent de A | **B** vient après A
+                        D | différent de C | **D** vient après C
+                        H | différent de G | **H** vient après G
+                        V | différent de T ou U | **V** vient après U
+                        N | A, C, G, T ou U | **N**'importe 
+                        X | acide nucléique masqué | 
+                        - | gap |
+
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Code des acides aminés
+
+                        Standard IUB/IUPAC
+
+                        <small>
+
+                        Code | Signification | &#124;| Code | Signification
+                        --- | --- | --- | --- | ---
+                        A | Alanine | &#124; | O | Pyrrolisine
+                        B | Acide aspartique | &#124; | P | Proline
+                        C | Cystéine | &#124; | Q | Glutamine
+                        D | Acide aspartique | &#124; | R | Arginine
+                        E | Acide glutamique | &#124; | S | Sérine
+                        F | Phénylalanine | &#124; | T | Thréonine
+                        G | Glycine | &#124; | U | Sélénocystéine
+                        H | Histidine | &#124; | V | Valine
+                        I | Isoleucine | &#124; | W | Tryptophane
+                        K | Lysine | &#124; | Y | Tyrosine
+                        L | Leucine | &#124; | Z | Acide glutamique
+                        M | Méthionine | &#124; | X | N'importe
+                        N | Asparagine | &#124; | * | Codon stop
+ 
+                        </small>
+
+                        </script>
+                    </section>
+
+
+
+
                 </section>
 
                 <section>
