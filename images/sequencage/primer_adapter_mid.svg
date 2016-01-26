@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://sodipodi.sourceforge.net/DTD/inkex-0.dtd"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1661.6626"
+   height="420.94635"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="primer_adapter_mid.svg"
+   inkscape:export-filename="/Users/cidam/Documents/Post_doc/Enseignement/2015_2016/IUT_Aurillac/metagenomique/metagenomique_cm/images/sequencage/primer_adapter_mid.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="2126.4073"
+     inkscape:cy="-774.09377"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1937"
+     inkscape:window-height="1300"
+     inkscape:window-x="734"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     fit-margin-left="5" />
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path3909" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3915"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mendr"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mendr"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4351"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mendr"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mendr-8"
+       style="overflow:visible">
+      <path
+         id="path4351-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(14.223567,634.04982)"
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(1.242968,0,0,1.242968,524.28757,-1002.9123)"
+       id="g3874">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path2985"
+         d="m 119.198,348.07647 345.25594,0"
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <flowRoot
+         transform="translate(37.40178,17.917337)"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757"><rect
+             style="font-size:32px;font-style:normal;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="147.48227"
+             width="473.76154"
+             id="rect3759" /></flowRegion><flowPara
+           id="flowPara3761">Séquence cible</flowPara></flowRoot>      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path2985-2"
+         d="m -37.83674,348.07731 157.04165,0"
+         style="fill:none;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mendr)" />
+      <flowRoot
+         transform="translate(-142.98884,17.811184)"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-2"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-8"><rect
+             style="font-size:32px;font-style:normal;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="147.48227"
+             width="473.76154"
+             id="rect3759-4" /></flowRegion><flowPara
+           id="flowPara3761-8">Primer</flowPara></flowRoot>      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path2985-2-3"
+         d="m -169.16301,348.07646 131.327374,0"
+         style="fill:none;stroke:#0000ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <flowRoot
+         transform="translate(-464.70201,17.858777)"
+         style="font-size:32px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-2-9"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-8-0"><rect
+             style="font-size:32px;font-style:normal;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="147.48227"
+             width="473.76154"
+             id="rect3759-4-0" /></flowRegion><flowPara
+           id="flowPara3855">Barcode</flowPara></flowRoot>      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path2985-2-3-8"
+         d="m -426.72355,348.07647 257.59644,0"
+         style="fill:none;stroke:#008000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <flowRoot
+         transform="translate(-516.13058,18.129263)"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-2-2"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-8-4"><rect
+             style="font-size:32px;font-style:normal;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="147.48227"
+             width="473.76154"
+             id="rect3759-4-5" /></flowRegion><flowPara
+           id="flowPara3761-8-2">Adaptateur</flowPara></flowRoot>      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path2985-2-4"
+         d="m 656.8244,348.07647 -192.75593,0"
+         style="fill:none;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mendr)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path2985-2-3-8-3"
+         d="m 656.29866,348.00303 240.45355,0"
+         style="fill:none;stroke:#008000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <flowRoot
+         transform="translate(-78.986601,102.52201)"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-2-9-7"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-8-0-7"><rect
+             style="font-size:28px;font-style:normal;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="183.19659"
+             width="368.04724"
+             id="rect3759-4-0-3" /></flowRegion><flowPara
+           id="flowPara3855-8">Identifiant unique de l'échantillon dans les cas de multiplexage</flowPara><flowPara
+           style="font-size:24px"
+           id="flowPara5592">MID (&quot;Multiplex Identifier&quot;, 454) ou Index (Illumina)</flowPara></flowRoot>      <flowRoot
+         transform="translate(399.77865,17.868662)"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-2-0"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-8-8"><rect
+             style="font-size:32px;font-style:normal;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="147.48227"
+             width="473.76154"
+             id="rect3759-4-3" /></flowRegion><flowPara
+           id="flowPara3761-8-27">Primer</flowPara></flowRoot>      <flowRoot
+         transform="translate(563.37622,18.186742)"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-2-2-6"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-8-4-5"><rect
+             style="font-size:32px;font-style:normal;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="147.48227"
+             width="473.76154"
+             id="rect3759-4-5-2" /></flowRegion><flowPara
+           id="flowPara3761-8-2-2">Adaptateur</flowPara></flowRoot>      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+         d="M -100,358.07646 67.142858,403.79074"
+         id="path4522"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <flowRoot
+         transform="translate(-549.74408,146.10337)"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-2-9-7-9"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-8-0-7-6"><rect
+             style="font-size:28px;font-style:normal;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="242.9689"
+             width="405.20752"
+             id="rect3759-4-0-3-0" /></flowRegion><flowPara
+           style="font-size:28px"
+           id="flowPara4934">Courte séquence nucléotidique capable de réaliser le pontage entre deux fragments d'ADN terminés par des séquences non complémentaires</flowPara></flowRoot>      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+         d="m -292.85714,360.93361 64.28571,60.00001"
+         id="path4938"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <flowRoot
+         transform="translate(374.19323,160.10444)"
+         style="font-size:28px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         id="flowRoot3755-2-9-7-9-4"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3757-8-0-7-6-2"><rect
+             style="font-size:28px;font-style:normal;text-align:center;text-anchor:middle;-inkscape-font-specification:Sans"
+             y="276.56503"
+             x="124.24876"
+             height="242.9689"
+             width="405.20752"
+             id="rect3759-4-0-3-0-8" /></flowRegion><flowPara
+           style="font-size:28px"
+           id="flowPara4934-3">Brin d'ADN qui sert de point de départ à la synthèse ADN</flowPara></flowRoot>      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+         d="m 585.71428,360.93361 101.42857,74.28572"
+         id="path5155"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+  <ns0:tables
+     count="1">
+    <ns0:table
+       columns="7"
+       rows="5"
+       table-id="inkscape-table0" />
+  </ns0:tables>
+</svg>

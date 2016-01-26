@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2760.512"
+   height="479.13556"
+   id="svg3144"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="sff_entete_read.svg"
+   inkscape:export-filename="/Users/cidam/Documents/Post_doc/Enseignement/2015_2016/IUT_Aurillac/metagenomique/metagenomique_cm/images/sequencage/sff_entete_read.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3146">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3936"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3164"
+       style="overflow:visible">
+      <path
+         id="path3166"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1312.3988"
+     inkscape:cy="245.28207"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1302"
+     inkscape:window-height="883"
+     inkscape:window-x="1119"
+     inkscape:window-y="193"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3149">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(937.3988,-298.5087)">
+    <rect
+       ry="0"
+       y="303.5087"
+       x="-932.3988"
+       height="469.13556"
+       width="1297.1428"
+       id="rect2997-2"
+       style="fill:#e6e6e6;stroke:none" />
+    <flowRoot
+       transform="translate(-299.4956,315.32259)"
+       xml:space="preserve"
+       id="flowRoot2985-3-3"
+       style="font-size:40px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"><flowRegion
+         id="flowRegion2987-6-4"><rect
+           id="rect2989-3-8"
+           width="954.28571"
+           height="1117.1428"
+           x="0"
+           y="0.93361121" /></flowRegion><flowPara
+         id="flowPara2991-7-7"
+         style="font-style:normal;-inkscape-font-specification:Sans">uint16_t</flowPara><flowPara
+         id="flowPara2993-2-3"
+         style="font-style:normal;-inkscape-font-specification:Sans">uint16_t</flowPara><flowPara
+         style="font-style:normal;-inkscape-font-specification:Sans"
+         id="flowPara3468">char[name_length]</flowPara><flowPara
+         id="flowPara2995-7-4"
+         style="font-style:normal;-inkscape-font-specification:Sans">uint32_t</flowPara><flowPara
+         id="flowPara2997-8-7"
+         style="font-style:normal;-inkscape-font-specification:Sans">uint16_t</flowPara><flowPara
+         id="flowPara3001-1-9"
+         style="font-style:normal;-inkscape-font-specification:Sans">uint16_t</flowPara><flowPara
+         id="flowPara3003-6-5"
+         style="font-style:normal;-inkscape-font-specification:Sans">uint16_t</flowPara><flowPara
+         style="font-style:normal;-inkscape-font-specification:Sans"
+         id="flowPara3412">uint16_t</flowPara><flowPara
+         id="flowPara3013-0-0"
+         style="font-style:normal;-inkscape-font-specification:Sans">uint8_t[*]</flowPara><flowPara
+         style="font-style:normal;-inkscape-font-specification:Sans"
+         id="flowPara4569-8" /></flowRoot>    <flowRoot
+       transform="translate(-916.68451,314.00364)"
+       xml:space="preserve"
+       id="flowRoot2985-1"
+       style="font-size:40px;font-style:italic;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"><flowRegion
+         id="flowRegion2987-9"><rect
+           id="rect2989-9"
+           width="954.28571"
+           height="1117.1428"
+           x="0"
+           y="0.93361121" /></flowRegion><flowPara
+         id="flowPara2991-0">read_header_length</flowPara><flowPara
+         id="flowPara2993-8">name_length</flowPara><flowPara
+         id="flowPara3466">name</flowPara><flowPara
+         id="flowPara2995-9">number_of_bases</flowPara><flowPara
+         id="flowPara2997-5">clip_qual_left</flowPara><flowPara
+         id="flowPara3470">clip_adapter_left</flowPara><flowPara
+         id="flowPara2999-9">clip_qual_right</flowPara><flowPara
+         id="flowPara3005-9">clip_adapter_right</flowPara><flowPara
+         id="flowPara4565-4">eight_byte_padding</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3890-6"
+       style="font-size:40px;font-style:italic;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       transform="translate(-784.34519,209.75998)"><flowRegion
+         id="flowRegion3892-33"><rect
+           id="rect3894-23"
+           width="1034.5686"
+           height="173.32991"
+           x="1128.5714"
+           y="180.93361"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara3896-3">Longueur et nom de l'accession ou nom du read</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 85.386815,388.53817 54.201705,0 0,62.62948 -52.181305,0"
+       id="path3898-47"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3890-1-8"
+       style="font-size:40px;font-style:italic;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       transform="translate(-958.1289,285.84202)"><flowRegion
+         id="flowRegion3892-8-0"><rect
+           id="rect3894-2-7"
+           width="1034.5686"
+           height="173.32991"
+           x="1128.5714"
+           y="180.93361"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara3896-0-4">Nombre de bases dans ce read</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 367.20412,493.59408 -487.88842,0"
+       id="path3927-44"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3890-0-9"
+       style="font-size:40px;font-style:italic;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       transform="translate(-747.05511,336.0104)"><flowRegion
+         id="flowRegion3892-3-8"><rect
+           id="rect3894-8-5"
+           width="1462.8734"
+           height="161.20808"
+           x="1128.5714"
+           y="180.93361"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara3896-7-1">Position et qualité de la première base après le point de coupure au début du read</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -126.89533,535.62548 57.058645,0 0,62.6294 -55.038345,0"
+       id="path3898-0-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -68.634575,567.06278 432.909395,0"
+       id="path4677-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 136.89722,418.00105 227.7243,0"
+       id="path4679-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3890-1-8-0"
+       style="font-size:40px;font-style:italic;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       transform="translate(-879.93393,135.20135)"><flowRegion
+         id="flowRegion3892-8-0-1"><rect
+           id="rect3894-2-7-3"
+           width="1034.5686"
+           height="173.32991"
+           x="1128.5714"
+           y="180.93361"
+           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara3896-0-4-4">Longueur de l'en-tête du read en octet</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 366.60722,344.97368 -487.88845,0"
+       id="path3927-44-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3890-0-9-5"
+       style="font-size:40px;font-style:italic;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Italic"
+       transform="translate(-749.7463,442.49582)"><flowRegion
+         id="flowRegion3892-3-8-9"><rect
+           id="rect3894-8-5-3"
+           width="1466.9141"
+           height="161.20808"
+           x="1128.5714"
+           y="180.93361"
+           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara3896-7-1-4">Position et qualité de la dernière base avant le point de coupure à la fin du read</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -127.58652,642.11088 57.058645,0 0,62.6294 -55.038345,0"
+       id="path3898-0-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -69.325765,673.54818 432.909385,0"
+       id="path4677-5-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
