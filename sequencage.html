@@ -1152,10 +1152,12 @@
                     </section>
 
                     <section data-markdown>
+                        <script type="text/template">
                         ### Longueur des séquences
 
-                        *mettre l'histogramme de distribution des longueurs*
+                        <img src="images/sequencage/seq_length_before_quality_treatement.png" alt="CRT" style="width: 550px;"/>
 
+                        </script>
                     </section>
 
                     <section data-markdown>
@@ -1184,6 +1186,110 @@
                         <img src="images/sequencage/quality_over_length.png" alt="CRT" style="width: 550px;"/>
 
                         </script>
+                    </section>
+
+                    <section data-markdown>
+                        ### Coupure des séquences basées sur le score de qualité par base
+
+                        Coupure de longueur fixe 
+
+                        ![](images/sequencage/fixed_length_trimming.png)
+                        
+                    </section>
+
+                    <section data-markdown>
+                        ### Coupure des séquences basées sur le score de qualité par base
+
+                        Coupure de longueur variable 
+
+                        ![](images/sequencage/adaptive_trimming.png)
+
+                        Utilisation d'une fenêtre glissante
+                        
+                        ![](images/sequencage/sliding_window_trimming.png)
+
+                    </section>
+
+                    <section data-markdown>
+                        ## Assemblage
+                    </section>
+
+                    <section data-markdown>
+                        ### Terminologie
+
+                        - **Assemblage** : Alignement et fusion de reads en séquences ADN plus longues
+                        - **Contig** : Séquence génomique continue et ordonnée générée par l'assemblage de reads qui se chevauchent
+                        - **Scaffold** : Contigs chevauchant séparés par des gaps de longueur connue
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Terminologie
+
+                        ![](images/sequencage/conting_scaffold.png)
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Utilisation de l'assemblage
+
+                        Alignement sur un génome de référence
+
+                        ![](images/sequencage/reference_genome_mapping.png)
+
+                        - Identification de variants
+                        - Reséquençage de génomes
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Utilisation de l'assemblage
+
+                        Assemblage *de novo* 
+
+                        Construction des séquences ADN d'un organisme sans génome de référence
+
+                        - Idéal
+                            - Longs reads sans erreurs
+                            - Problème de simple déduction
+                        - Réalité
+                            - Reads courts et sujets aux erreurs
+                            - Problème d'inférence compliqué
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Statistiques de séquençage
+
+                        - **Profondeur ou couverture** : Nombre moyen de fois qu'un nucléotide particulier est représenté dans une collection de reads aléatoire
+                        - **Profondeur de couverture** : Nombre de reads x Longueur des reads / Taille de l'assemblage
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Métriques d'assemblage
+
+                        - Nombre de contigs/scaffolds
+                        - Taille des contigs/scaffolds
+                        - Taille totale
+                        - Nombre de N
+                        - N50 
+                            - Longueur du plus petit contig dans l'ensemble qui contient le moins de configs dont les longueurs combinées représente au moins 50% de l'assemblage
+
+                    </section>
+
+                    <section data-markdown>
+                        ## Analyse des séquences 
+                    </section>
+
+                    <section data-markdown>
+                        ### Analyse des séquences 
+
+                        - Construction de génomes
+                        - Détection des SNP ou indels
+                        - Détection de nouveaux gènes ou éléments régulateurs
+                        - Détermination des niveaux d'expression
+                        - ...
                     </section>
 
                 </section>
