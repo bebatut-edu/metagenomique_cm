@@ -233,6 +233,184 @@
                     <section data-markdown>
                         # Principes de la métagénomique
                     </section>
+
+                    <section data-markdown>
+                        ### Métagénomique
+
+                        ![](images/metagenomique/principe_metagenomique.png)
+                    </section>
+
+                    <section data-markdown>
+                        ### Métagénomique
+
+                        Objectifs:
+
+                        - Identifier les organismes présents dans un échantillon
+                        - Identifier les fonctions principales réalisés par les 
+                        organismes d'un échantillon
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Métagénomique
+
+                        <img src="images/metagenomique/pipeline_metagenomique.png" alt="CRT" style="height: 500px;"/>
+
+                        </script>                 
+                    </section>
+
+                    <section data-markdown>
+                        ## Extraction et séquençage
+                    </section>
+
+                    <section data-markdown>
+                        ### 2 types d'expériences métagénomiques
+
+                        - Amplicon
+                        - "Envionmental shotgun metagenomics", WGS ou métagénomique     
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Amplicon
+
+                        Morceau d'ADN ou ARN amplifié par PCR
+
+                        ![](images/metagenomique/amplicon.png)
+
+                        <small>
+                            Crédits : [*Kumar et al, BMC Bioinformatics, 2011*](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3120705/)
+                        </small>
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Utilisation de l'ARNr 16S
+
+                        ![](images/metagenomique/16S_variability.jpeg)
+
+                        <small>
+                            Crédits : [*Bodilis et al, PLoS One, 2012*](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0035647)
+                        </small>
+
+                        Séquençage des régions 
+
+                        - V1.3
+                        - V3.4
+                        - V4
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Possibilité de cibler d'autres gènes
+
+                        <img src="images/metagenomique/fungene.png" alt="CRT" style="height: 500px;"/>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        ### "Envionmental shotgun metagenomics", WGS ou métagénomique
+
+                        Séquençage de l'ensemble des séquences d'un échantillon
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Comparaison
+
+                        <small>
+
+                        Amplicon | Métagénomique
+                        --- | --- 
+                        Un fragment de gène | Toutes les séquences 
+                        Technique simple | Technique plus complexe
+                        Biais de PCR | - 
+                        Information phylogénétique limitée | Information phylogénétique "complète"
+                        Pas d'information fonctionelle | Information fonctionelle complète
+                        Bases de données complètes | Bases de données incomplètes
+
+                        </small>
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        ## Prétraitements
+                    </section>
+
+                    <section data-markdown>
+                        ### Prétraitements
+
+                        - Contrôle de la qualité des séquences
+                        - Assemblage
+                        - Tri des séquences
+                        - Prédiction des séquences d'intérêt
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Assemblage
+
+                        ![](images/metagenomique/shenemangenome.gif)
+
+                        <small>
+                            Crédit : Drew Sheneman
+                        </small>
+
+                        > Metagenomics is like a disaster in jigsaw shop
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Assemblage
+
+                        - Objectif
+                            - Construire des séquences plus longues, voir des organismes entiers
+                        - Problème
+                            - Séquences courtes
+                            - Séquences issues d'organismes différents
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Assemblage 
+
+                        2 types d'outils d'assemblage
+
+                        - A l'aide de bases de données
+                        - *De novo*
+
+                        <i class="fa fa-exclamation-triangle"></i> Chimères : 
+                        assemblage de séquences issues d'espèces différentes
+
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Tri des séquences 
+
+                        - Utilité
+                            - Assignation des séquences
+                            - Recherche dans des bases de données spécifiques
+                        - Caractéristiques d'intérêt
+                            - Gènes ARNr, ARNt
+                            - ORF
+                            - Unités taxonomiques opérationnelles (OTU)
+                        - Quelques outils
+                            - SortMeRNA, rRNA selector
+                            - MetaGeneAnnotator, Prodigal, Orphelia
+                            - tRNAscanSE
+
+                        </script>
+                    </section>
+
                 </section>
 
                 <section>
