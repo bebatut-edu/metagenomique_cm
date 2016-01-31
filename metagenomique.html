@@ -567,28 +567,292 @@
                     </section>
 
                     <section data-markdown>
-                        ## Comparaison des données
+                        ### Que sont les métadonnées?
+
+                        Description en profondeur et contrôlée de l'échantillon
+                        - Où?
+                            - Latitude et longitude
+                            - Profondeur
+                            - ...
+                        - Quand?
+                        - Quoi?
+                        - Comment?
+                            - Processus de conservation 
+                            - Méthode d'extraction
+                            - Plateforme de séquençage
+                            - ...
                     </section>
 
+                    <section data-markdown>
+                        ### Importance des métadonnées
+
+                        Indispensable pour partager et intégrer les données dans
+                        la communauté
+
+                        Besoin d'un vocabulaire standardisé minimal
+                    </section>
+
+                    <section data-markdown>
+                        ### Genome Standard Consortium (GSC)
+
+                        Organisme international, ouvert, formé en 2005
+
+                        Objectifs
+                        - Promouvoir les mécanismes de standardisation de la
+                        description des génomes
+                        - Promouvoir l'échange et l'intégration des données
+                        génomiques
+                    </section>
+
+                    <section data-markdown>
+                        ### Genome Standard Consortium (GSC)
+
+                        Missions
+
+                        - Développement 
+                            - de nouveaux standards (méta)génomiques
+                            - des méthodes de capture et d'échange des métadonnées
+                        - Harmonisation de la collection des métadonnées et des
+                        efforts d'analyse à travers toute la communauté génomique
+                    </section>
+
+                    <section data-markdown>
+                        ### Standards des métadonnées
+
+                        **MixS** : Minimum Information about any Sequence
+
+                        **MIGS/MIMS** : Minimum information about a (Meta)Genome Sequence
+
+                        **MIMARKS** : Minimum Information about a MARKer gene Sequence
+                    </section>
+
+                </section>
+
+                <section>
+                    <section data-markdown data-separator-notes="Note:">
+                        # Métagénomique comparative
+
+                        [*Turnbaugh et al, Nature, 2009*](http://www.nature.com/nature/journal/v457/n7228/full/nature07540.html)
+
+                        Note: 
+
+                        A core gut microbiome in obese and lean twins
+                        Données pour les TP  
+                    </section>
+
+
+                    <section data-markdown data-separator-notes="Note:">
+                        ## Comparaison de la diversité                        
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Comparaison des organismes présents
+
+                        ![](images/metagenomique/turnbaugh_2009_comp_taxo.png)
+
+                        <small>
+                            Crédit : [*Turnbaugh et al, Nature, 2009*](http://www.nature.com/nature/journal/v457/n7228/full/nature07540.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Diversité beta
+
+                        - Notion définie par *Whittaker, Evolution and Measurement 
+                        of Species Diversity, 1972*
+                        - Comparasion entre 2 échantillons de la différence de 
+                        communauté (difference des espèces ou OTU)
+
+
+                        $$ \beta = \frac{S}{\alpha} $$
+
+                        <small>
+
+                        $S$ : nombre total d'espèces enregistrées dans les 2 échantillons
+
+                        $\alpha$ : moyenne du nombre d'espèces trouvées au sein des 2 échantillons
+
+                        </small>
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Comparaison de la diversité avec la distance Unifrac
+
+                        ![](images/metagenomique/turnbaugh_2009_unifrac_distance.png)
+
+                        <small>
+                            Crédit : [*Turnbaugh et al, Nature, 2009*](http://www.nature.com/nature/journal/v457/n7228/full/nature07540.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        ## Comparaison des fonctions réalisées                      
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Comparaison des catégories COG
+
+                        ![](images/metagenomique/turnbaugh_2009_comp_COG.png)
+
+                        <small>
+                            Crédit : [*Turnbaugh et al, Nature, 2009*](http://www.nature.com/nature/journal/v457/n7228/full/nature07540.html)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Comparaison des processus biologiques
+
+                        <img src="images/metagenomique/SRP000319_biological_processes.png" alt="CRT" style="height: 500px;"/>
+
+                        <small>
+                            Crédit : [EBI metagenomics](https://www.ebi.ac.uk/metagenomics/compare)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Comparaison des fonctions moléculaires
+
+                        <img src="images/metagenomique/SRP000319_molecular_functions.png" alt="CRT" style="height: 500px;"/>
+
+                        <small>
+                            Crédit : [EBI metagenomics](https://www.ebi.ac.uk/metagenomics/compare)
+                        </small>
+
+                        </script>
+                    </section>
                 </section>
 
                 <section>
                     <section data-markdown>
                         # Limites et freins
                     </section>
-                </section>
 
-                <section>
                     <section data-markdown>
-                        # Autres techniques méta'omiques
+                        ## Conservation des données
                     </section>
-                </section>
 
-                <section>
-                    <section data-markdown>
-                        ## Références
-                   
-                        articles...
+                    <section data-markdown data-separator-notes="Note:">
+                        ### Données
+
+                        - Besoin d'une profondeur de séquençage importante en 
+                        métagénomique
+                        - Augmentation exponentielle des données générées
+                        - Limites des transferts des données par les réseaux 
+                        informatiques
+
+                        Note:
+                        - 2-10 To de données / laboratoire / an
+                        - Plus rapide d'envoyer un disque que de récupérer par
+                        téléchargement?
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        ### Conservation des données
+
+                        - Quoi?
+                            - Données brutes
+                            - Résultats des analyses
+                            - Description des données
+                        - Où?
+                            - Localement?
+                            - Cloud?
+                            - Dépôts publics?
+
+                        Note:
+
+                        - Temps d'analyses peu couteux donc pas besoin de garder 
+                        tous les résultats intermédiares
+                        - Importance de la description des données
+                        - Conservation locale
+                            - risque de perte des données
+                            - confidentialité
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        ### Principaux dépôts publics
+
+                        - EBI : ENA, EBI metagenomics,...
+                        - NCBI
+                        - DDBJ
+
+                        Note:
+
+                        - ENA 
+                            - métadonnées complets suivants les standards
+                            - outils intuitifs, checklist, support, ...
+                        - NCIB
+                            - metadonnées suivant les standards encouragés
+                        - DDBJ
+                            - pas besoin de suivre les standard GSC
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        ## Traitement des données
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Fin de la loi de Moore et baisse des prix des séquençage
+
+                        <img src="images/metagenomique/sboner_2011_figure2.jpg" alt="CRT" style="width: 600px;"/>
+
+                        <small>
+                        Crédit : [*Sboner et al, Genome Biol, 2011*](http://www.genomebiology.com/2011/12/8/125/ref)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Part plus importante des coûts de traitement des données
+
+                        <img src="images/metagenomique/sboner_2011_figure1.jpg" alt="CRT" style="width: 600px;"/>
+
+                        <small>
+                        Crédit : [*Sboner et al, Genome Biol, 2011*](http://www.genomebiology.com/2011/12/8/125/ref)
+                        </small>
+
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### 1 solution : parallélisation
+
+                        <img src="images/metagenomique/divide_conquer.jpg" alt="CRT" style="height: 400px;"/>
+
+                        - Données
+                        - Tâches
+                        - Algorithme
+
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Solution pour la parallélisation
+
+                        Clusters, grilles, cloud
+
+                        ![](images/metagenomique/data_center.jpeg)
+
+                        </script>
                     </section>
                 </section>
 
@@ -611,6 +875,8 @@
                     { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: 'js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'reveal.js/plugin/math/math.js', async: true },
+                    { src: 'reveal.js/plugin/notes/notes.js', async: true },
                 ]
             });
         </script>
