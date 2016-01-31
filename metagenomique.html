@@ -393,7 +393,6 @@
                     </section>
 
                     <section data-markdown>
-                        <script type="text/template">
                         ### Tri des séquences 
 
                         - Utilité
@@ -407,16 +406,129 @@
                             - SortMeRNA, rRNA selector
                             - MetaGeneAnnotator, Prodigal, Orphelia
                             - tRNAscanSE
+                    </section>
+
+                    <section data-markdown>
+                        ## Affiliation taxonomique des séquences
+                    </section>
+
+                    <section data-markdown>
+                        ### Pourquoi l'affiliation taxonomique?
+
+                        ![](images/metagenomique/TS1.svg)
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Pourquoi l'affiliation taxonomique?
+
+                        ![](images/metagenomique/species_genus_family.png)
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Procédure standard
+
+                        ![](images/metagenomique/affiliation_taxonomique.png)
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Limites
+
+                        - Longueur des séquences
+                        - Nombre de séquences
+                        - Absences d'homologues dans les banques
+                        - Faible abondance des marqueurs phylogénétique classiques
+                            - Boues d'épuration : 0.17%
+                            - Mer des Sargasses : 0.06% 
+                            - Sol acide, mines du Minnesota : 0.017%
+
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### Clustering des séquences en OTU (Operational taxonomic unit)
+
+                        ![](images/metagenomique/clustering.png)
 
                         </script>
                     </section>
 
-                </section>
-
-                <section>
                     <section data-markdown>
-                        # Exemples
+                        ### Recherche de similarité 
+
+                        - Recherche de similarité par fréquence de k-mer
+                        - Recherche de similarité intrinsèques
+                            - Contenu en GC 
+                            - Usage des codons
                     </section>
+
+                    <section data-markdown>
+                        ### Analyse de la diversité d'un échantillon
+
+                        Alpha diversité
+
+                        - Notion définie par *Whittaker, Evolution and Measurement 
+                        of Species Diversity, 1972*
+                        - Mesure pour un échantillon de
+                            - Richesse
+                                - Nombre de groupes d'individus génétiquement liés 
+                                (nombre d'espèces)
+                            - Egalité 
+                                - Proportion d'espèces présentes 
+
+                        ![](images/metagenomique/diversite_alpha.png)
+                    </section>
+
+                    <section data-markdown>
+                        ## Affiliation fonctionnelle
+                    </section>
+
+                    <section data-markdown>
+                        ### Pourquoi l'affiliation fonctionnelle ?
+
+                        ![](images/metagenomique/ts1_function.png)
+                    </section>
+
+                    <section data-markdown>
+                        ### Procédure
+
+                        ![](images/metagenomique/affiliation_fonctionelle.png)
+                    </section>
+
+                    <section data-markdown>
+                        ### Classification des fonctions protéiques
+
+                        - Recherche contre bases de données de références
+                            - Cluster of orthologous groups of proteins (COG)
+                            - SEED
+                            - Kyoto Encyclopedia of Genes and Genomes (KEGG)
+                            - ...
+                        - Recherche de motifs fonctionnels
+                            - InterPro
+                            - Prosite
+                            - ...
+                    </section>
+
+                    <section data-markdown>
+                        ## Quelques pipelines 
+                    </section>
+
+                    <section data-markdown>
+                        ## Exemple
+
+                        [Lean human gut](https://www.ebi.ac.uk/metagenomics/projects/SRP000319/samples/SRS000998/runs/SRR029687/results/versions/1.0#ui-id-6)
+                    </section>
+
+                    <section data-markdown>
+                        ## Importance des métadonnées
+                    </section>
+
+                    <section data-markdown>
+                        ## Comparaison des données
+                    </section>
+
                 </section>
 
                 <section>
