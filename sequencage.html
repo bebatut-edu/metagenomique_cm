@@ -1230,22 +1230,97 @@
                     </section>
 
                     <section data-markdown>
+                        ### Exemples de contrôle de la qualité
+
+                        - [Jeu de données utilisé en TP](data/correct_quality_dataset/SRR029695_fastqc.html)
+                        - [Jeu de données de mauvaise qualité](data/bad_quality_dataset/SRR026762_fastqc.html)
+                        
+                    </section>
+
+                    <section data-markdown>
                         ## Assemblage
                     </section>
 
                     <section data-markdown>
-                        ### Terminologie
+                        ### Assemblage
 
-                        - **Assemblage** : Alignement et fusion de reads en séquences ADN plus longues
-                        - **Contig** : Séquence génomique continue et ordonnée générée par l'assemblage de reads qui se chevauchent
-                        - **Scaffold** : Contigs chevauchant séparés par des gaps de longueur connue
+                        Alignement et fusion de reads en séquences ADN plus longues
+                    </section>
+
+                    <section data-markdown>
+                        ### Assemblage
+
+                        ![](images/sequencage/conting_scaffold.png)
 
                     </section>
 
                     <section data-markdown>
-                        ### Terminologie
+                        ### Assemblage
 
-                        ![](images/sequencage/conting_scaffold.png)
+                        - **Contig** : Séquence génomique continue et ordonnée générée par l'assemblage de reads qui se chevauchent
+                        - **Scaffold** : Contigs chevauchant séparés par des gaps de longueur connue
+                    </section>
+
+                    <section data-markdown>
+                        ### Statistiques de séquençage
+
+                        - **Profondeur ou couverture** : Nombre moyen de fois qu'un nucléotide particulier est représenté dans une collection de reads aléatoire
+                        - **Profondeur de couverture** : Nombre de reads x Longueur des reads / Taille de l'assemblage
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Métriques d'assemblage
+
+                        Taille de l'assemblage
+
+                        ![](images/sequencage/assembly_example.png)
+
+                        200 Mpb
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Métriques d'assemblage
+
+                        Nombre de contigs/scaffolds
+
+                        ![](images/sequencage/assembly_example.png)
+
+                        12
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Métriques d'assemblage
+
+                        Taille moyenne des contigs/scaffolds
+
+                        ![](images/sequencage/assembly_example.png)
+
+                        16.67
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Métriques d'assemblage
+
+                        Nombre de N
+
+                        ![](images/sequencage/assembly_example.png)
+
+                        23
+
+                    </section>
+
+                    <section data-markdown>
+                        ### Métriques d'assemblage
+
+                        N50 
+
+                        ![](images/sequencage/assembly_example.png)
+
+                        20
 
                     </section>
 
@@ -1278,23 +1353,47 @@
                     </section>
 
                     <section data-markdown>
-                        ### Statistiques de séquençage
+                        ### Outils d'assemblage
 
-                        - **Profondeur ou couverture** : Nombre moyen de fois qu'un nucléotide particulier est représenté dans une collection de reads aléatoire
-                        - **Profondeur de couverture** : Nombre de reads x Longueur des reads / Taille de l'assemblage
+                        [> 75 outils](http://omictools.com/genome-assembly-category) 
 
                     </section>
 
-                    <section data-markdown>
-                        ### Métriques d'assemblage
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### 2 paradigmes algorithmiques principaux
 
-                        - Nombre de contigs/scaffolds
-                        - Taille des contigs/scaffolds
-                        - Taille totale
-                        - Nombre de N
-                        - N50 
-                            - Longueur du plus petit contig dans l'ensemble qui contient le moins de configs dont les longueurs combinées représente au moins 50% de l'assemblage
+                        Overlap - Layout - Consensus (OLC)
 
+                        ![](images/sequencage/overlap-layout-consensus-genome-assembly-algorithm-Reads-are-provided-to-the-algorithm.png)
+
+                        <small>
+                            Crédits : [*Commins et al, Biol Proc Online, 2009*](https://www.researchgate.net/publication/26266221_Computational_Biology_Methods_and_Their_Application_to_the_Comparative_Genomics_of_Endocellular_Symbiotic_Bacteria_of_Insects)
+                        </small>
+
+                        Note:
+
+                        - Identification des régions chevauchantes
+                        - Graphes avec chaque read correspondant à un noeud et
+                        chevauchement correspondant aux arrêtes
+                        - Algorithme : déterminer le meilleur chemin à travers le
+                        graphique
+
+                        </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### 2 paradigmes algorithmiques principaux
+
+                        Graphes de Bruijn 
+
+                        <img src="images/sequencage/merger2013.png" alt="CRT" style="width: 550px;"/>
+
+                        <small>
+                            Crédits : [*Berger et al, Nat Rev Genet, 2013*](http://www.nature.com/nrg/journal/v14/n5/full/nrg3433.html)
+                        </small>
+                        </script>
                     </section>
 
                     <section data-markdown>
@@ -1302,13 +1401,95 @@
                     </section>
 
                     <section data-markdown>
-                        ### Analyse des séquences 
+                        <script type="text/template">
+                        ### Whole genome sequencing
 
-                        - Construction de génomes
-                        - Détection des SNP ou indels
-                        - Détection de nouveaux gènes ou éléments régulateurs
-                        - Détermination des niveaux d'expression
-                        - ...
+                        ![](images/sequencage/whole_genome_sequencing.png)
+
+                        <small>
+                        Crédits : [OMICS Tools](http://omictools.com/)
+
+                        </small>
+                       </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                        ### De novo genome sequencing
+
+                        ![](images/sequencage/de_novo_sequencing.png)
+
+                        <small>
+                        Crédits : [OMICS Tools](http://omictools.com/)
+
+                        </small>
+                       </script>
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### RNA-seq
+
+                        ![](images/sequencage/rna_seq.png)
+
+                        <small>
+                        Crédits : [OMICS Tools](http://omictools.com/)
+
+                        </small>
+                       </script>
+
+                       Note:
+
+                       Choix populaire pour l'étude de l'expression des gènes
+
+                       Alternative aux puces ADN pour l'identification de gènes
+                       différentiellement exprimés
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Small RNA-seq
+
+                        ![](images/sequencage/small_rna_seq.png)
+
+                        <small>
+                        Crédits : [OMICS Tools](http://omictools.com/)
+
+                        </small>
+                       </script>
+
+                       Note:
+
+                       Analyses qualitatives et quantitatives des petits ARN non
+                       codants
+
+                        microRNAs and other regulatory small transcripts
+                    </section>
+
+                    <section data-markdown data-separator-notes="Note:">
+                        <script type="text/template">
+                        ### Chip-seq
+
+                        ![](images/sequencage/rna_seq.png)
+
+                        <small>
+                        Crédits : [OMICS Tools](http://omictools.com/)
+
+                        </small>
+
+                        Note:
+
+                        Chromatin immunoprecipitation followed by sequencing
+
+                        Détermination *in vivo* de l'endroit de fixation d'une protéine
+                        sur le génome 
+
+                        - Facteur de transcription
+                        - Enzyme DNA-binding
+                        - Histones
+                        - Chaperones
+                        - Nucléosome
+                       </script>
                     </section>
 
                 </section>
@@ -1317,9 +1498,10 @@
                     <section data-markdown>
                         ## Références
                    
-                        - Quelques vidéos sur les différentes méthodes de séquençage
-                            - [Apport d'Ion Torrent par rapport à Illumina](https://www.youtube.com/watch?v=R8rEEUkfC9I)
-
+                        - [Vidéo sur l'apport d'Ion Torrent par rapport à Illumina](https://www.youtube.com/watch?v=R8rEEUkfC9I)
+                        - [QC fail](https://sequencing.qcfail.com)
+                        - [Présentation de l'assemblage](http://fr.slideshare.net/kbradnam/assemblathon-2-talk?qid=31d4f62b-27c2-43d8-bf89-9f7074cedf67&v=&b=&from_search=1)
+                        - [Différentes applications du séquençage haut-débit](http://omictools.com/sequencing-category)
                     </section>
 
                     <section data-markdown>
@@ -1347,6 +1529,7 @@
                     { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: 'js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'reveal.js/plugin/notes/notes.js', async: true },
                 ]
             });
         </script>

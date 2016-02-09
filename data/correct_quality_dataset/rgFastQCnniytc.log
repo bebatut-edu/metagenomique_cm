@@ -1,0 +1,5 @@
+/galaxy/main/deps/FastQC/0.11.2/devteam/package_fastqc_0_11_2/4b65f6e39cb0/fastqc --outdir /galaxy-repl/main/jobdir/011/758/11758257/dataset_14273448_files --quiet --extract SRR029695.fastq -f fastq
+Creating symlink
+check_call
+Copying working SRR029695.fastq file to /galaxy-repl/main/files/014/273/dataset_14273448.dat 
+Finished

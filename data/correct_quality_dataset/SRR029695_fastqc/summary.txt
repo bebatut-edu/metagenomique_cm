@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRR029695.fastq
+FAIL	Per base sequence quality	SRR029695.fastq
+PASS	Per sequence quality scores	SRR029695.fastq
+FAIL	Per base sequence content	SRR029695.fastq
+PASS	Per sequence GC content	SRR029695.fastq
+PASS	Per base N content	SRR029695.fastq
+WARN	Sequence Length Distribution	SRR029695.fastq
+PASS	Sequence Duplication Levels	SRR029695.fastq
+PASS	Overrepresented sequences	SRR029695.fastq
+PASS	Adapter Content	SRR029695.fastq
+WARN	Kmer Content	SRR029695.fastq
